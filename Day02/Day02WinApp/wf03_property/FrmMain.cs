@@ -42,7 +42,10 @@ namespace wf03_property
         /// </summary>
         private void ChangeFontStyle()
         {
-            if (CboFontFamily.SelectedIndex < 0) return;
+            if (CboFontFamily.SelectedIndex < 0)
+            {
+                CboFontFamily.SelectedIndex = 0;
+            }
 
             FontStyle style = FontStyle.Regular; // 기본
             if (ChkBold.Checked == true)
