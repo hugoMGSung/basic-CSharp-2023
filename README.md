@@ -23,7 +23,7 @@
 	- WinForms 컨트롤
 	- 리스트뷰, 데이터그리드 추가학습요
 	
-	
-	
+3일차 윈폼 학습결과
 
+<img src="https://raw.githubusercontent.com/hugoMGSung/basic-CSharp-2023/main/images/winforms01.png" width="700">
 	
