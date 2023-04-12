@@ -31,8 +31,8 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.northwindDataSet = new wf08_dbhandling.NorthwindDataSet();
             this.employeesBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.northwindDataSet = new wf08_dbhandling.NorthwindDataSet();
             this.employeesTableAdapter = new wf08_dbhandling.NorthwindDataSetTableAdapters.EmployeesTableAdapter();
             this.employeeIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lastNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -53,8 +53,8 @@
             this.reportsToDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.photoPathDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.northwindDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeesBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.northwindDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -90,15 +90,15 @@
             this.dataGridView1.Size = new System.Drawing.Size(513, 367);
             this.dataGridView1.TabIndex = 0;
             // 
-            // northwindDataSet
-            // 
-            this.northwindDataSet.DataSetName = "NorthwindDataSet";
-            this.northwindDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
             // employeesBindingSource
             // 
             this.employeesBindingSource.DataMember = "Employees";
             this.employeesBindingSource.DataSource = this.northwindDataSet;
+            // 
+            // northwindDataSet
+            // 
+            this.northwindDataSet.DataSetName = "NorthwindDataSet";
+            this.northwindDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // employeesTableAdapter
             // 
@@ -227,8 +227,8 @@
             this.Text = "DB 연동";
             this.Load += new System.EventHandler(this.FrmMain_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.northwindDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.employeesBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.northwindDataSet)).EndInit();
             this.ResumeLayout(false);
 
         }
