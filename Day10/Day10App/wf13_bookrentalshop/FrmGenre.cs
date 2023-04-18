@@ -116,7 +116,7 @@ namespace wf13_bookrentalshop
             if (string.IsNullOrEmpty(TxtDivision.Text))
             {
                 result = false;
-                errorMsg += "● 장르명을 입력하세요.\r\n";
+                errorMsg += "● 장르코드를 입력하세요.\r\n";
             }
 
             if (string.IsNullOrEmpty(TxtNames.Text))
